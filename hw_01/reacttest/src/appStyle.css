@@ -1,0 +1,160 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+img {
+    width: auto;
+    max-width: 100%;
+}
+h2{
+    color: #E3D9CA;
+}
+h3{
+    color: #581845;
+}
+.navigation{
+    max-width: 1024px;
+    background: #0F3C5A;
+    padding: 0 297px;
+
+}
+.navigation li{
+    display: inline-block;
+    line-height: 45px;
+    border-left: 1px solid #e3e2dc;
+    min-width: 138px;
+    text-align: center;
+}
+.navigation a{
+    color: #fff;
+    text-decoration: none;
+}
+.wrapper{
+    margin: 0 auto;
+    padding: 0 180px 0 80px;
+    background-color: #eee;
+}
+.period{
+    color: #86003C;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 4px;
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    left: 29px;
+    top: -135px;
+    border: 1px solid #bbb;
+}
+.gif{
+    width: 250px;
+    height: 200px;
+}
+.post{
+    margin-left: 120px;
+    display: inline-block;
+    width: 600px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bbb;
+}
+.buttonComment{
+    font-family: 'Nunito', sans-serif;
+    background-color: #0F3C5A;
+    color: #fff;
+    width: 130px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.maps iframe{
+    width: 1330px;
+    height: 350px;
+}
+.contact section{
+    display: inline-block;
+    width: 33%;
+}
+.contact .icons{
+    float: left;
+    color: #0F3C5A;
+}
+.address, section p{
+    margin-left: 28px;
+}
+
+.getData{
+    float: right;
+    position: relative;
+    top: -70px;
+    left: -103px;
+    font-size: 21px;
+    color: #E3D9CA;
+}
+.gallary{
+    display: inline-block;
+}
+.gallary img{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #86003C;
+    padding: 10px;
+    margin: 11px;
+    overflow: hidden;
+}
+.gallary img, .gallary img{
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+.gallary img:hover, .gallary img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.diagram{
+    float: left;
+    margin-right: 30px;
+}
+.diagram img{
+    border: 2px solid #E3D9CA;
+}
+.asideRight{
+    display: inline-block;
+    width: 500px;
+}
+.asideRight h2{
+    color: #581845;
+    margin: 0 95px;
+}
+.climateChange li{
+    border-bottom: 1px solid #86003C;
+    cursor: pointer;
+}
+.climateChange li:hover{
+    color: #E3D9CA;
+}
+
+.theData{
+    height: 533px;
+}
+.fonPicture{
+    height: 450px;
+}
+
+.selected{
+    position: relative;
+    top: -410px;
+    left: 200px;
+    display: inline-block;
+}
+.selected select{
+    width: 250px;
+    height: 30px;
+}
+.selected p{
+    color: #fff;
+    font-size: 12px;
+}
